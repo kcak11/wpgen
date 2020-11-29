@@ -78,6 +78,7 @@
                 tmp.innerHTML = "<meta content='width=device-width,initial-scale=0.1,minimum-scale=0.1,maximum-scale=1.0,user-scalable=0' name='viewport' />";
                 document.querySelector("head").appendChild(tmp.querySelector("meta[name=viewport]"));
             }
+            window.location.hash = "[" + screen.width + "x" + screen.height + "]";
         </script>
     </body>
 </html>
